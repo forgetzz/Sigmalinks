@@ -1,5 +1,5 @@
 {
-  "name": "asbfamily",
+  "name": "Sigmalinks",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,10 +22,10 @@
     "framer-motion": "^12.23.7",
     "lucide-react": "^0.525.0",
     "motion": "^12.38.0",
-    "next": "15.4.2",
-    "react": "19.1.0",
+    "next": "^16.2.1",
+    "react": "^19.2.4",
     "react-countup": "^6.5.3",
-    "react-dom": "19.1.0",
+    "react-dom": "^19.2.4",
     "react-icons": "^5.5.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
