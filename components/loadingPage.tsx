@@ -25,7 +25,7 @@ export default function GlobalLoading() {
 
         <Image
          priority
-          src="/images/ATAYA.png" // Ganti ini dengan gambar kamu
+          src="/images/14.png" // Ganti ini dengan gambar kamu
           alt="Loading"
           width={800}
           height={800}

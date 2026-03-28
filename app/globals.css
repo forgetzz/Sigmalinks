@@ -155,3 +155,14 @@ body {
   -ms-overflow-style: none;  /* IE & Edge */
   scrollbar-width: none;     /* Firefox */
 }
+
+.card::before {
+  border : 1px solid red;
+}
+
+h1{
+   font-family: "Fraunces", Georgia, serif;
+}
+h1 span {
+    font-style: italic;
+}

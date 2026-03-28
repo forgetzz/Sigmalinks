@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -26,9 +26,9 @@ export default function Navbar() {
   const menuLinks = [
     { label: "Beranda", href: "/" },
     { label: "Tentang Kami", href: "#tentangKami" },
-    { label: "Produk", href: "#product" },
-    { label: "Price List", href: "#price" },
-    { label: "Galery", href: "/galery" },
+    { label: "Team", href: "#Team" },
+    { label: "Layanan", href: "#layanan" },
+    { label: "Roadmap", href: "#Roadmap" },
     { label: "Kontak", href: "#kontak" },
   ];
 
@@ -36,9 +36,20 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-white shadow-sm dark:bg-black/90 dark:border-red-400">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold text-blue-600 p-2">
-          Ataya Agung Pratama
+
+        <Link  href="/" className="text-xl font-bold italic text-blue-800 p-2 flex justify-center items-center gap-3">
+          <Image
+            src="/images/14.png"
+            alt="Logo sigmalinks"
+            width={30}
+            height={30}
+            className="object-contain max-h-60 rounded-lg "
+            priority
+          />
+
+          Sigmalinks Research
         </Link>
+
 
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-6">
@@ -58,9 +69,9 @@ export default function Navbar() {
 
         {/* Desktop Buttons */}
         <div className="hidden lg:flex gap-2">
-          <Button asChild className="bg-blue-600 hover:bg-red-700 text-white">
-            <Link href="https://wa.link/ytt8my">
-              Pesan sekarang <FaWhatsapp className="ml-2 h-5 w-5" />
+          <Button asChild className="bg-blue-600 hover:bg-bluenp,m r-700 text-white">
+            <Link  href="https://wa.me/+6287841812901">
+              Konsultasi sekarang <FaWhatsapp className="ml-2 h-5 w-5" />
             </Link>
           </Button>
         </div>
@@ -84,7 +95,7 @@ export default function Navbar() {
                   <Link
                     key={link.label}
                     href={link.href}
-                    className="text-gray-700 hover:text-red-600 font-medium"
+                    className="text-gray-700 hover:text-blue-600 font-medium"
                   >
                     {link.label}
                   </Link>
@@ -92,10 +103,10 @@ export default function Navbar() {
 
                 <Button
                   asChild
-                  className="bg-red-600 hover:bg-red-700 text-white w-full"
+                  className="bg-blue-600 hover:bg-blue-700 text-white w-full"
                 >
-                  <Link href="/login">
-                    Pesan Jasa Service <FaWhatsapp className="ml-2 h-5 w-5" />
+                  <Link href="https://wa.me/+6287841812901">
+                    Konsultasi sekarang <FaWhatsapp className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
 

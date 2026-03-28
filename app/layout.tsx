@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Service AC Makassar | Ataya Agung Pratama",
+  title: "Sigmalinks Research",
   description:
-    "Jasa service AC profesional di Makassar dan sekitarnya. Perbaikan, cuci, dan perawatan AC dengan teknisi berpengalaman, harga transparan, bergaransi.",
+    "  SigmaLinks Research bridges the gap between academic rigor and industry practice, delivering actionable insights for the maritime, port, and transportation sectors",
   icons: {
-    icon: "/images/aa.png",
+    icon: "/images/14.png",
   },
 };
 
@@ -31,22 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
-      <head>
-        {/* ✅ Google Tag Manager pakai Script */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17566965278"
-        />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-17566965278');
-          `}
-        </Script>
-      </head>
-
+  
       <body className="bg-base-100 text-base-content min-h-screen">
         <RotatingImage />
         {children}

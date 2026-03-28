@@ -9,19 +9,19 @@ export default function SejarahKami() {
       {/* Hero Section */}
       <div className="bg-blue-600 text-white py-12 px-6 text-center shadow-lg">
         <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
-          Tentang PT ATAYA AGUNG PRATAMA
+         Sigmalinks Research
         </h1>
         <p className="text-lg mt-3 max-w-2xl mx-auto">
-          Inovasi Layanan Service AC untuk Kenyamanan dan Kepuasan Anda
+        Navigating Global the Future of Maritime
         </p>
       </div>
 
       {/* Gambar dan Konten */}
       <div className="flex flex-wrap md:flex-nowrap bg-white p-8 items-center gap-8 max-w-7xl mx-auto">
         {/* Gambar */}
-        <div className="relative w-full md:w-1/3 h-72 rounded-xl overflow-hidden shadow-md">
+        <div className="relative w-[100%] md:w-1/3 h-72 rounded-xl overflow-hidden shadow-md">
           <Image
-            src="/images/pic1.jpeg"
+            src="/images/12.png"
             alt="Logo ATT"
             fill
             className="object-cover"
@@ -32,11 +32,7 @@ export default function SejarahKami() {
         {/* Teks */}
         <div className="w-full text-gray-700">
           <p className=" text-lg ">
-            Kami adalah perusahaan yang bergerak dalam bidang Kontraktor,
-            Distributor, Service, dan Maintenance Air Conditioner dengan
-            pengalaman lebih dari puluhan tahun. Dengan komitmen tinggi pada
-            kualitas dan kepuasan pelanggan, kami selalu memberikan layanan
-            terbaik untuk mendukung kenyamanan Anda.
+             SigmaLinks Research bridges the gap between academic rigor and industry practice, delivering actionable insights for the maritime, port, and transportation sectors
           </p>
         </div>
       </div>
@@ -45,11 +41,10 @@ export default function SejarahKami() {
       <div className="bg-gray-50 py-16 px-6 mt-10 border-t border-gray-200">
         <div className="max-w-5xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800">
-            Visi <span className="text-blue-600">&</span> Misi
+            Visi <span className="text-blue-600">&</span> Misi SigmaLinks Research
           </h2>
           <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-            Landasan kami dalam memberikan pelayanan Service AC terbaik untuk
-            setiap pelanggan.
+            Landasan kami menjadi pusat unggulan (Center of Excellence) riset dan inovasi .
           </p>
         </div>
 
@@ -58,9 +53,7 @@ export default function SejarahKami() {
           <div className="bg-white shadow-lg rounded-2xl p-8 hover:shadow-xl transition">
             <h3 className="text-2xl font-bold text-blue-600 mb-4">Visi</h3>
             <p className="text-gray-700 leading-relaxed">
-              Menjadi perusahaan service AC terpercaya dan terdepan di
-              Indonesia, yang selalu mengutamakan kualitas, inovasi, dan
-              kepuasan pelanggan.
+           Menjadi pusat unggulan (Center of Excellence) riset dan inovasi maritim berbasis data terdepan, yang mentransformasi ketajaman akademis menjadi solusi industri strategis dan kebijakan publik yang berdampak tinggi demi ekosistem logistik global yang berkelanjutan.
             </p>
           </div>
 
@@ -69,10 +62,10 @@ export default function SejarahKami() {
             <h3 className="text-2xl font-bold text-blue-600 mb-4">Misi</h3>
             <ul className="space-y-3 text-gray-700 text-left">
               {[
-                "Memberikan layanan service AC yang cepat, profesional, dan berkualitas.",
-                "Menyediakan solusi hemat energi dan ramah lingkungan.",
-                "Membangun hubungan jangka panjang dengan pelanggan berdasarkan kepercayaan.",
-                "Meningkatkan kualitas sumber daya manusia melalui pelatihan berkelanjutan.",
+                "Keunggulan Akademis (Academic Excellence) Meningkatkan kualitas dan kuantitas publikasi ilmiah kemaritiman Indonesia di kancah global melalui pendampingan riset yang ketat, metodologi inovatif, dan kolaborasi dengan institusi internasional bereputasi tinggi.",
+                "Inovasi Industri Berbasis Data (Data-Driven Industrial Innovation) Mengembangkan produk dan layanan intelijen maritim mutakhir—seperti pemodelan prediktif dan analitik big data—untuk menjembatani kesenjangan antara teori akademis dan tantangan nyata di sektor pelayaran, pelabuhan, dan logistik.",
+                "Pengembangan Ekosistem Talenta (Talent Ecosystem Development) Membangun dan membina komunitas peneliti maritim yang unggul melalui program pelatihan lanjutan, dan kemitraan strategis guna mencetak generasi penerus analis data dan ahli maritim.",
+                "Advokasi Kebijakan Berbasis Bukti (Evidence-Based Policy Advocacy) Menjadi mitra strategis bagi pemerintah dan pemangku kepentingan industri dalam merumuskan kebijakan maritim yang berlandaskan data, guna mendorong efisiensi logistik, keselamatan navigasi, dan praktik pengiriman yang berkelanjutan.",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2">
                   <CheckCircle className="text-blue-500 w-5 h-5 mt-1" />

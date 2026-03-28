@@ -1,17 +1,13 @@
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero";
-import { JasaList } from "@/components/Jasalist"; // Assuming this is correct
-import Navbar from "@/components/navbar";
-import Pengguna from "@/components/pengguna";
-import ProductCards from "@/components/produk";
-import SejarahKami from "@/components/sejarahKami";
-import { PengalamanPerusahaan } from "@/components/Pengalaman";
-import { GalleryPerusahaan } from "@/components/Documnet";
 import { LayananKami } from "@/components/Layanan";
-import PromoCountdown from "@/components/Promo";
-import Price from "@/components/price";
-import ProductList from "@/components/product";
-import Testimonial from "@/components/Testimonial";
+
+import Navbar from "@/components/navbar";
+import { Roadmap } from "@/components/Roadmap";
+
+import SejarahKami from "@/components/sejarahKami";
+import Team from "@/components/Team";
+
 
 export default function Home() {
   return (
@@ -30,35 +26,27 @@ export default function Home() {
           {/* Adjust this margin as needed */}
           <SejarahKami />
         </div>
-        <div className="mt-16">
+        <div className="mt-16 px-1">
           {" "}
           {/* Adjust this margin as needed */}
           <LayananKami />
         </div>
-        <div className="mt-16 px-5 border-red-400">
+        <div className="mt-16 px-1">
           {" "}
           {/* Adjust this margin as needed */}
-          {/* <ProductCards /> */}
-          <ProductList/>
+          <Roadmap />
         </div>
-        <div>
+        <div className="mt-16 px-1">
           {" "}
-          <Price/>
-         
+          {/* Adjust this margin as needed */}
+       <Team/>
         </div>
-        <div className="mt-16 px-10">
-          <JasaList />
-        </div>
-        <div className="mt-16 px-10">
-          {" "}
-          <PengalamanPerusahaan />
-        </div>
-        <div className="mt-16 px-10">
-          {" "}
-          <Testimonial/>
-        </div>
+
+
+
+
       </main>
-      <Footer /> 
+      <Footer />
     </div>
   );
 }
