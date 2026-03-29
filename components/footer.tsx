@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <footer
       id="kontak"
-      className="bg-gradient-to-br from-blue-600 to-blue-400 text-white pt-12 pb-6 mt-16 shadow-inner shadow-black/20"
+      className="bg-blue-900 text-white pt-12 pb-6 mt-16 shadow-inner shadow-black/20"
     >
       <div className="w-full mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
         {/* Logo & Deskripsi */}
@@ -78,7 +78,7 @@ export default function Footer() {
             Alamat Kami
           </h3>
           <p className="text-sm text-gray-100">
-           Aida Green Residence C4, Sudiang, Makassar
+ 
           </p>
           <div className="rounded-xl overflow-hidden border border-white/30 shadow-md">
             <iframe

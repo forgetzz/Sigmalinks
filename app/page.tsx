@@ -21,22 +21,22 @@ export default function Home() {
         {/* Each section component should ideally manage its own internal padding */}
         <HeroSection />
         {/* Adding margin between sections for visual separation */}
-        <div className="mt-16 px-1">
+        <div className=" px-1">
           {" "}
           {/* Adjust this margin as needed */}
           <SejarahKami />
         </div>
-        <div className="mt-16 px-1">
+        <div className="px-1">
           {" "}
           {/* Adjust this margin as needed */}
           <LayananKami />
         </div>
-        <div className="mt-16 px-1">
+        <div className=" px-1">
           {" "}
           {/* Adjust this margin as needed */}
           <Roadmap />
         </div>
-        <div className="mt-16 px-1">
+        <div className="px-1">
           {" "}
           {/* Adjust this margin as needed */}
        <Team/>

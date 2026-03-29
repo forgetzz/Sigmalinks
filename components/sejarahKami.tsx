@@ -27,7 +27,7 @@ export default function SejarahKami() {
   }, [])
 
   return (
-    <div id="tentangKami" className="w-full border border-red-500 ">
+    <div id="tentangKami" className="w-full  ">
 
 
 
