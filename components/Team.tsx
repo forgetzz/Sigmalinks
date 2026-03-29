@@ -226,7 +226,7 @@ export default function Team() {
           <br />
           Masa Depan Bersama Di Bidang Kemaritiman
         </h2>
-        <p className="subheading">
+        <p className="subheading text-black">
           Kami adalah kolektif pemikir, pembuat, dan pemecah masalah
           yang percaya bahwa teknologi terbaik lahir dari kolaborasi nyata.
         </p>
