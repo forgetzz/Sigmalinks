@@ -44,7 +44,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Admin: 0878-4181-2901
+                Hub: 085255433563
               </a>
             </li>
 
