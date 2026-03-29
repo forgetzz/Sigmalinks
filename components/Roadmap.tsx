@@ -1,5 +1,6 @@
 import React from "react";
 import { Timeline } from "./ui/Timeline";
+import Image from "next/image";
 
 
 export function Roadmap() {
@@ -92,6 +93,18 @@ export function Roadmap() {
         <h1 className=" text-center text-2xl sm:text-5xl font-extrabold text-gray-800 leading-tight">
         Roadmap <span className="text-blue-600">Sigmalinks Research</span>
         </h1>
+         <div className="absolute inset-0 z-0">
+                <Image
+                  src="/images/d.jpg"
+                  alt="Inovasi Service AC"
+                  fill
+                  className="object-cover brightness-75"
+                  priority
+                />
+              </div>
+        
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-white/80 z-0" />
       <Timeline data={data} />
     </div>
   );

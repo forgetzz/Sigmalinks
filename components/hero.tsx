@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
-const HeroSection: React.FC = () => {
+const HeroSection = () => {
   return (
     <section className="relative w-full h-screen flex items-center justify-center bg-white text-white overflow-hidden">
       {/* Background Image */}
@@ -24,17 +24,17 @@ const HeroSection: React.FC = () => {
       <div className="absolute inset-0 bg-black/50 z-0" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-3xl">
+      <div className="relative z-10 text-center px-4 max-w-4xl">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Navigating Global {" "}
           <span className="text-blue-300"> the Future of</span>{" "}
           Maritime
         </h1>
-        <p className="text-lg md:text-xl mb-8 text-blue-100">
+        <p className="text-xl md:text-xl mb-8 text-blue-100">
         SigmaLinks Research bridges the gap between academic rigor and industry practice, delivering actionable insights for the maritime, port, and transportation sectors
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="https://wa.me/+6287841812901">
+          <Link href="https://wa.me/+6285255433563 ">
             <Button
               size="lg"
               className="bg-blue-800 hover:bg-blue-700 text-white px-6 py-3 rounded-xl shadow-lg"

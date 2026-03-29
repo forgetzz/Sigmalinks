@@ -36,7 +36,7 @@ const teamMembers = [
   },
   {
     name: "Muhammad Irfan Afandy",
-    role: "Software Engineer",
+    role: "Programmer",
     image: "./images/ii.png",
     accent: "#E8C547",
   },
@@ -217,7 +217,7 @@ export default function Team() {
   };
 
   return (
-    <section className="section">
+    <section id="Team" className="section">
       {/* Header */}
       <div className="header">
         <span className="eyebrow">Our People</span>

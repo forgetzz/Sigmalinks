@@ -44,14 +44,14 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Admin: 0878-4181-2901
+                Admin: 085255433563 
               </a>
             </li>
            
             <li className="flex items-center gap-2">
               <FaInstagram className="text-green-400" />
               <a
-                href="https://facebook.com/atayaagungpratama"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -82,7 +82,7 @@ export default function Footer() {
           </p>
           <div className="rounded-xl overflow-hidden border border-white/30 shadow-md">
             <iframe
-             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.76286847727!2d119.45381997324694!3d-5.141834351991667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee2d33d7ca299%3A0x1a868188211204c7!2sAida%20Green%20Residence!5e0!3m2!1sen!2sid!4v1774625291166!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.0319913452563!2d119.5359633!3d-5.0985296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefb005ca41651%3A0x84c23340c78bd209!2sHome-SLR%20Institute!5e0!3m2!1sen!2sid!4v1774760647262!5m2!1sen!2sid"
               width="100%"
               height="180"
               style={{ border: 0 }}
@@ -90,7 +90,7 @@ export default function Footer() {
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
             />
-          
+        
           </div>
        
         </div>

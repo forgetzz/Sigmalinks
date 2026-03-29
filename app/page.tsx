@@ -13,7 +13,7 @@ export default function Home() {
   return (
     // We'll wrap everything in a div that sets the overall page background
     // and adds a bit of top padding to ensure content isn't right at the edge of the browser.
-    <div className="bg-gray-50 min-h-screen">
+    <div className=" bg-gradient-to-br from-blue-300 via-white to-blue-600 min-h-screen">
       <Navbar /> {/* Navbar typically has its own styling */}
       <main>
         {" "}
